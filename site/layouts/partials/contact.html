@@ -1,0 +1,14 @@
+<div class="bg-primary white">
+  <h3 class="tc pv5 f3">Frågor? Ta gärna kontakt!</h3>
+  <div class="flex center bg-white mw7 br1 overflow-hidden shadow-1">
+    <ul class="grey-4 flex-auto w-50">
+      <li class="black pa3 divider tc fw9">Kontaktuppgifter</li>
+      <li class="pa3 flex items-center divider">{{ partial "icon" (dict "icon" "icons-person") }}{{.name}}</li>
+      <li class="pa3 flex items-center divider">{{ partial "icon" (dict "icon" "icons-location") }}{{.address}}</li>
+      <li class="pa3 flex items-center divider">{{ partial "icon" (dict "icon" "icons-phone") }}{{.phone}}</li>
+      <li class="pa3 flex items-center">{{ partial "icon" (dict "icon" "icons-mail") }}{{.email}}</li>
+    </ul>
+    <div class="bg-center cover flex-auto w-50" style="background-image: url('/img/map.jpg')">
+    </div>
+  </div>
+</div>

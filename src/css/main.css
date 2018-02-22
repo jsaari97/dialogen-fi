@@ -72,6 +72,8 @@
 @import './imports/_buttons';
 @import './imports/_svg';
 @import './imports/_cms';
+@import './imports/_filter';
+@import './imports/_box-shadow';
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
@@ -84,4 +86,3 @@
 @import './imports/_debug-grid';
 
 /* Uncomment out the line below to help debug layout issues */
-/*@import './imports/_debug';*/

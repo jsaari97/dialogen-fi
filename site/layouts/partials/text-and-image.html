@@ -1,21 +1,18 @@
-<div class="bg-grey-1 pv4">
-	<div class="ph3 mw7 center">
+ {{ range .sections }}
+<div class="ph2 ph3-m pv5 pv6-m vh-75-ns w-100 center relative overflow-hidden flex flex-column justify-center items-center">
+	<div class="w-100 w-60-m w-30-l z-1 bg-white pv3 pv4-m ph1 ph5-m tc br1 shadow-1 mb3">
+		<img src="{{.icon}}" alt="" class="center db mb3" style="width: 90px">
+		<h2 class="f4 b lh-title mb3">{{.title}}</h2>
 
-		<div class="flex-l mhn2-l">
-			<div class="w-40-l ph2-l">
-				<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
+		<p class="grey-4 center">{{.text}}</p>
 
-				<p>{{.text}}</p>
-			</div>
-
-			<div class="w-60-l ph2-l">
-				<img src="img/home-about-section.jpg" alt="" class="mb3">
-			</div>
-		</div>
-
+		{{ if .buttonLink }}
 		<div class="tc">
 			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
 		</div>
-
+		{{ end }}
 	</div>
+
+	<div class="bg-center cover absolute left-0 top-0 right-0 bottom-0 f-bd" style="background-image: url('{{.image}}')"></div>
 </div>
+{{ end }}

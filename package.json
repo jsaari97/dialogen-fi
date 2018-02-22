@@ -1,5 +1,5 @@
 {
-  "name": "victor-hugo",
+  "name": "dialogen",
   "version": "1.0.0",
   "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "start": "gulp server",
     "lint": "eslint src"
   },
-  "author": "",
+  "author": "Jim Saari",
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^6.1.2",

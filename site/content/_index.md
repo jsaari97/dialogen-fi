@@ -1,20 +1,34 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
-blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
-intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+title: "Behöver ni hjälp med språkträning?"
+image: /img/background.jpg
+contact:
+  name: Eivor Hansen
+  address: Pelostrandvägen 96, Nedervetil
+  phone: 050 5940804
+  email: dialogen.eivor@gmail.com
+blurbs:
+  - image: /img/magic.svg
+    text: Vi tar så lätt språket för givet och tror att alla barn börjar prata per automatik. Så var det inte hos oss. 
+  - image: /img/baby.svg
+    text: Vår yngste son föddes med Downs syndrom och tack vare honom kom jag i kontakt med Karlstadmodellen. En ny värld öppnades!  Utan språk-vem är du då?
+  - image: /img/edu.svg
+    text: Jag utbildade mig till handledare i Karlstadmodellen 2012-2015 och innan dess har jag jobbat som klasslärare i över 15 år. Jag har fyra barn och vill tro att jag sitter på rätt god erfarenhet av språkträning.
+info:
+  image: /img/logo.svg
+  text: Mitt företag heter ’Språkträning DIALOGEN’ och jag ställer gärna upp och handleder, ger tips och idéer för barn med olika typer av språkstörningar.
+sections:
+  - image: /img/karlstad.jpg
+    icon: /img/person.svg
+    title: Karlstadmodellen
+    text: >
+      En språkträningsmodell utvecklad av Irene Johansson. Den bygger på fem gruntankar: steget     före, empowerment, kontinuitet, tydliggörande och struktur
+    buttonText: Läs mer om Karlstadmodellen
+    buttonLink: /karlstadmodellen
+  - image: /img/babblarna.jpg
+    icon: /img/wave.svg
+    title: Babblarna
+    text: >
+      Babblarna har blivit populära hos yngre barn. Ett tillltalande träningsmaterial som Irene Johansson utvecklade för språkträning med yngre barn.
+    buttonText: Läs mer om Babblarna
+    buttonLink: /babblarna
 ---
-

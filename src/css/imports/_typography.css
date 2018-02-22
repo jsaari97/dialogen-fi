@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--off-white);
- }
+}
 
 p {
   margin-bottom: var(--spacing-medium);
@@ -71,6 +71,10 @@ sup {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900 !important;
 }
 
 @media (--breakpoint-not-small) {
