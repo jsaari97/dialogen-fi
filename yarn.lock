@@ -4409,6 +4409,10 @@ moment@^2.11.2:
   version "2.19.3"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.3.tgz#bdb99d270d6d7fda78cc0fbace855e27fe7da69f"
 
+moveto@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/moveto/-/moveto-1.7.1.tgz#b97847c2c6a12b88a179afd4fee0718b6851797e"
+
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -4701,6 +4705,10 @@ object.pick@^1.2.0:
   resolved "https://registry.yarnpkg.com/object.pick/-/object.pick-1.3.0.tgz#87a10ac4c1694bd2e1cbf53591a66141fb5dd747"
   dependencies:
     isobject "^3.0.1"
+
+offside-js@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/offside-js/-/offside-js-1.3.1.tgz#ae19bdcad0ee450c90d77e9f8132b70235cbcda3"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -6446,6 +6454,10 @@ sanitize-filename@^1.6.1:
 sax@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+
+scrollreveal@^3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/scrollreveal/-/scrollreveal-3.3.6.tgz#659b7bf0ba0e244dced978ac5540c00b43773e4a"
 
 section-iterator@^2.0.0:
   version "2.0.0"

@@ -1,6 +1,7 @@
-// JS Goes here - ES6 supported
+import ScrollReveal from "scrollreveal";
+
 if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", user => {
+  window.netlifyIdentity.on("init", (user) => {
     if (!user) {
       window.netlifyIdentity.on("login", () => {
         document.location.href = "/admin/";
@@ -8,3 +9,19 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+const scrollReveal = ScrollReveal();
+
+const scrollConfig = {
+  viewFactor: 1.25,
+  duration: 400,
+  delay: 150,
+  easing: "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+  scale: 0.5,
+};
+
+const blurbs = document.querySelectorAll("img[id^=blurb-]");
+
+blurbs.forEach((node) => scrollReveal.reveal(node, scrollConfig));
+
+scrollReveal.reveal(".header", {...scrollConfig, viewFactor: 0.25, delay: 600, duration: 300});

@@ -2,7 +2,7 @@
 title: "Behöver ni hjälp med språkträning?"
 image: /img/background.jpg
 contact:
-  name: Eivor Hansen
+  name: Eivor Hansén
   address: Pelostrandvägen 96, Nedervetil
   phone: 050 5940804
   email: dialogen.eivor@gmail.com
