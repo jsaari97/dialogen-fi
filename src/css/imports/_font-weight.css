@@ -8,7 +8,7 @@
 .fw6    { font-weight: 600; }
 .fw7    { font-weight: 700; }
 .fw8    { font-weight: 800; }
-.fw9    { font-weight: 900; }
+.fw9    { font-weight: 900 !important; }
 
 
 @media (--breakpoint-not-small) {

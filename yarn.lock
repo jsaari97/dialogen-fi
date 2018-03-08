@@ -6672,6 +6672,10 @@ slug@^0.9.1:
   dependencies:
     unicode ">= 0.3.1"
 
+smooth-scroll@^12.1.5:
+  version "12.1.5"
+  resolved "https://registry.yarnpkg.com/smooth-scroll/-/smooth-scroll-12.1.5.tgz#b6d8deca371a9edd5ea3ad291ef0fb7e741ed41e"
+
 sniffr@1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/sniffr/-/sniffr-1.1.4.tgz#c57fa9fc1e8fccc47432be3764ca33b79698e0e8"

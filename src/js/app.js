@@ -1,4 +1,5 @@
 import ScrollReveal from "scrollreveal";
+import SmoothScroll from "smooth-scroll";
 
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", (user) => {
@@ -25,3 +26,6 @@ const blurbs = document.querySelectorAll("img[id^=blurb-]");
 blurbs.forEach((node) => scrollReveal.reveal(node, scrollConfig));
 
 scrollReveal.reveal(".header", {...scrollConfig, viewFactor: 0.25, delay: 600, duration: 300});
+
+const smoothScroll = new SmoothScroll('a[href*="#"]');
+

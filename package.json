@@ -47,6 +47,7 @@
     "postcss-uncss": "^0.14.0",
     "react": "15.6.1",
     "scrollreveal": "^3.3.6",
+    "smooth-scroll": "^12.1.5",
     "uncss": "^0.14.1",
     "url-loader": "^0.5.7",
     "webpack": "^3.0.0",

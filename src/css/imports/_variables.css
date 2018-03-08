@@ -6,7 +6,7 @@
 	--off-white: rgba(255, 253, 252, 1);
 	--grey-1: rgba(245, 243, 242, 1);
 	--grey-2: rgba(235, 231, 230, 1);
-	--grey-3: rgba(89, 87, 86, 1);
+	--grey-3: #797f8a;
 	--grey-4: #475468;
 	--black: #203350;
 
@@ -16,7 +16,7 @@
 
 	--font-size: 18px;
 	--font-size-m: 20px;
-	--font-size-l: 20px;
+	--font-size-l: 22px;
 
 	--body-font-weight: 600;
 	--bold-font-weight: 700;

@@ -1,18 +1,21 @@
- {{ range .sections }}
-<div class="bg-primary ph2 ph3-m pv5 pv6-m w-100 center relative overflow-hidden flex flex-column justify-center items-center">
-	<div class="w-100 w-80-m z-1 bg-white pv3 pv4-m ph1 ph5-m tc br1 shadow-1 mb3 mw6-l">
-		<img src="{{.icon}}" alt="" class="center db mb3" style="width: 90px">
-		<h2 class="f4 b lh-title mb3">{{.title}}</h2>
+<div id="lankar" class="bg-primary ph3-m w-100">
+	<h3 class="tc pb3 pb4-m f4 f3-m white">Länkar</h3>
+	<div class="center relative overflow-hidden flex flex-column flex-row-m justify-around items-center center mw7">
+		{{ range .sections }}
+		<div class="flex-auto bg-white tc br1 shadow-1 ma2 ma3-m overflow-hidden">
+			<div class="bg-center cover h5" style="background-image: url('{{.image}}')"></div>
+			<div class="pb4 pt3 ph2 ph4-m">
+				<h2 class="f3 mb2 black fw6">{{.title}}</h2>
 
-		<p class="grey-4 center">{{.text}}</p>
+				<p class="f6 grey-3 center">{{.text}}</p>
 
-		{{ if .buttonLink }}
-		<div class="tc">
-			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+				{{ if .buttonLink }}
+				<div class="tc pb2">
+					<a href="{{.buttonLink}}" class="primary f6 raise">{{.buttonText}}</a>
+				</div>
+				{{ end }}
+			</div>
 		</div>
 		{{ end }}
 	</div>
-
-	<div class="bg-center cover absolute left-0 top-0 right-0 bottom-0 f-bd" style="background-image: url('{{.image}}')"></div>
 </div>
-{{ end }}

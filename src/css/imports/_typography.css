@@ -18,6 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--off-white);
+  letter-spacing: 0.0175em;
 }
 
 p {
@@ -74,7 +75,7 @@ sup {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 900 !important;
+  font-weight: 900;
 }
 
 @media (--breakpoint-not-small) {

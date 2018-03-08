@@ -23,12 +23,12 @@ sections:
     text: >
       En språkträningsmodell utvecklad av Irene Johansson. Den bygger på fem gruntankar: steget     före, empowerment, kontinuitet, tydliggörande och struktur
     buttonText: Läs mer om Karlstadmodellen
-    buttonLink: /karlstadmodellen
+    buttonLink: http://www.karlstadmodellen.se/
   - image: /img/babblarna.jpg
     icon: /img/wave.svg
     title: Babblarna
     text: >
       Babblarna har blivit populära hos yngre barn. Ett tillltalande träningsmaterial som Irene Johansson utvecklade för språkträning med yngre barn.
     buttonText: Läs mer om Babblarna
-    buttonLink: /babblarna
+    buttonLink: http://babblarna.se/om-babblarna/
 ---
