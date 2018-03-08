@@ -1,5 +1,6 @@
 ---
 title: "Behöver ni hjälp med språkträning?"
+description: "Behöver ni hjälp med språkträning?"
 image: /img/background.jpg
 contact:
   name: Eivor Hansén
