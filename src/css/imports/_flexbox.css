@@ -196,3 +196,9 @@
   .order-8-l { order: 8; }
   .order-last-l { order: 99999; }
 }
+
+@media (--breakpoint-medium) {
+  .flex-nowrap-m {
+    flex-wrap: nowrap;
+  }
+}

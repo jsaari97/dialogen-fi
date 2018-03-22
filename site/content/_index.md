@@ -16,7 +16,7 @@ blurbs:
     text: Jag utbildade mig till handledare i Karlstadmodellen 2012-2015 och innan dess har jag jobbat som klasslärare i över 15 år. Jag har fyra barn och vill tro att jag sitter på rätt god erfarenhet av språkträning.
 info:
   image: /img/logo.svg
-  text: Mitt företag heter ’Språkträning DIALOGEN’ och jag ställer gärna upp och handleder, ger tips och idéer för barn med olika typer av språkstörningar.
+  text: Mitt företag heter ’Språkträning Dialogen’ och jag ställer gärna upp och handleder, ger tips och idéer för barn med olika typer av språkstörningar.
 sections:
   - image: /img/karlstad.jpg
     icon: /img/person.svg
