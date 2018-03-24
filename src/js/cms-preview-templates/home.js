@@ -84,7 +84,8 @@ export default class PostPreview extends React.Component {
     <div>
       <h3 className="f4 fw9 b lh-title mb2 white">Social media</h3>
       <ul className="mhn2 tc">
-        {entry.getIn(["data", "facebook"]) && <Icon icon="img/icons-facebook.svg" />}
+        {entry.getIn(["data", "facebook"]) && <Icon icon="/img/icons-facebook.svg" />}
+        {entry.getIn(["data", "instagram"]) && <Icon icon="/img/icons-instagram.svg" />}
       </ul>
     </div>
   </div>
