@@ -1,7 +1,9 @@
 ---
-title: "Behöver ni hjälp med språkträning?"
-description: "Behöver ni hjälp med språkträning?"
+title: Behöver ni hjälp med språkträning?
+description: Behöver ni hjälp med språkträning?
 image: /img/background.jpg
+facebook: https://www.facebook.com/hanseneivor/
+instagram:
 contact:
   name: Eivor Hansén
   address: Pelostrandvägen 96, Nedervetil
@@ -19,17 +21,15 @@ info:
   text: Mitt företag heter ’Språkträning Dialogen’ och jag ställer gärna upp och handleder, ger tips och idéer för barn med olika typer av språkstörningar.
 sections:
   - image: /img/karlstad.jpg
-    icon: /img/person.svg
     title: Karlstadmodellen
     text: >
       En språkträningsmodell utvecklad av Irene Johansson. Den bygger på fem gruntankar: steget     före, empowerment, kontinuitet, tydliggörande och struktur
-    buttonText: Läs mer om Karlstadmodellen
-    buttonLink: http://www.karlstadmodellen.se/
+    linkText: Läs mer om Karlstadmodellen
+    link: http://www.karlstadmodellen.se/
   - image: /img/babblarna.jpg
-    icon: /img/wave.svg
     title: Babblarna
     text: >
       Babblarna har blivit populära hos yngre barn. Ett tillltalande träningsmaterial som Irene Johansson utvecklade för språkträning med yngre barn.
-    buttonText: Läs mer om Babblarna
-    buttonLink: http://babblarna.se/om-babblarna/
+    linkText: Läs mer om Babblarna
+    link: http://babblarna.se/om-babblarna/
 ---

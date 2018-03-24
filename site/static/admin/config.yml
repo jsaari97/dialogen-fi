@@ -1,22 +1,39 @@
 backend:
   name: git-gateway
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
+media_folder: site/static/img # Folder where user uploaded files should go
+public_folder: img
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "pages"
-    label: "Pages"
+  - name: pages
+    label: Pages
     files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
-        name: "home"
+      - file: site/content/_index.md
+        label: Dialogen konfiguration
+        name: home
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Background, name: image, widget: image}
-          - {label: "Blurbs", name: blurbs, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Business", name: "info", widget: "object", fields: [
-              {label: "Image", name: "image", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+          - {label: Huvudrubrik, name: title, widget: string}
+          - {label: Bakgrundsbild, name: image, widget: image}
+          - {label: Kontakt, name: contact, widget: object, fields: [
+              {label: Namn, name: name},
+              {label: Adress, name: address},
+              {label: Telefon nr., name: phone},
+              {label: E-post, name: email},
+            ]}
+          - {label: Företagsinfo, name: info, widget: object, fields: [
+              {label: Bild, name: image, widget: image},
+              {label: Text, name: text, widget: text}
+            ]}
+          - {label: Om Företaget, name: blurbs, widget: list, fields: [
+              {label: Bild, name: image, widget: image},
+              {label: Text, name: text, widget: text}
+            ]}
+          - {label: Länkar, name: sections, widget: list, fields: [
+              {label: Bild, name: image, widget: image},
+              {label: Rubrik, name: title, widget: text},
+              {label: Text, name: text, widget: text},
+              {label: Länktext, name: linkText, widget: text},
+              {label: länk, name: link, widget: text}
+            ]}
+          - {label: Facebook länk, name: facebook, widget: string}
+          - {label: Instagram länk, name: instagram, widget: string}
