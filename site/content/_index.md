@@ -43,6 +43,6 @@ sections:
       Babblarna har blivit populära hos yngre barn. Ett tillltalande
       träningsmaterial som Irene Johansson utvecklade för språkträning med yngre
       barn.
-facebook: 'https://www.facebook.com/hanseneivor/ '
+facebook: 'https://www.facebook.com/hanseneivor/'
 ---
 
