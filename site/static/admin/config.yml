@@ -32,8 +32,8 @@ collections: # A list of collections the CMS should be able to edit
               {label: Bild, name: image, widget: image},
               {label: Rubrik, name: title, widget: text},
               {label: Text, name: text, widget: text},
-              {label: Länktext, name: linkText, widget: text},
-              {label: länk, name: link, widget: text}
+              {label: Länktext, name: linkText, widget: text, optional: true},
+              {label: länk, name: link, widget: text, optional: true}
             ]}
-          - {label: Facebook länk, name: facebook, widget: string}
-          - {label: Instagram länk, name: instagram, widget: string}
+          - {label: Facebook länk, name: facebook, widget: string, optional: true}
+          - {label: Instagram länk, name: instagram, widget: string, optional: true}
