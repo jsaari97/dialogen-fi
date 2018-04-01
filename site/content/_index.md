@@ -2,8 +2,9 @@
 title: Behöver ni hjälp med språkträning?
 description: Behöver ni hjälp med språkträning?
 image: /img/background.jpg
-facebook: https://www.facebook.com/hanseneivor/
-instagram:
+socialmedia:
+  facebook: https://www.facebook.com/hanseneivor/
+  instagram:
 contact:
   name: Eivor Hansén
   address: Pelostrandvägen 96, Nedervetil

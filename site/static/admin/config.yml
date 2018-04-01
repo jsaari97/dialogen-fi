@@ -35,5 +35,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: Länktext, name: linkText, widget: text, required: false},
               {label: länk, name: link, widget: text, required: false}
             ]}
-          - {label: Facebook länk, name: facebook, widget: string, required: false}
-          - {label: Instagram länk, name: instagram, widget: string, required: false}
+          - {label: Social Media, name: socialmedia, widget: object, fields: [
+              {label: Facebook länk, name: facebook, widget: string, required: false},
+              {label: Instagram länk, name: instagram, widget: string, required: false}
+            ]}
