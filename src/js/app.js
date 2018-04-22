@@ -1,5 +1,6 @@
 import ScrollReveal from "scrollreveal";
 import SmoothScroll from "smooth-scroll";
+import Lozad from "lozad";
 
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", (user) => {
@@ -28,3 +29,5 @@ blurbs.forEach((node) => scrollReveal.reveal(node, scrollConfig));
 scrollReveal.reveal(".header", {...scrollConfig, viewFactor: 0.25, delay: 200, duration: 300});
 
 new SmoothScroll('a[href*="#"]');
+
+Lozad().observe();

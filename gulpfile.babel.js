@@ -10,7 +10,6 @@ import webpackConfig from "./webpack.conf";
 import svgstore from "gulp-svgstore";
 import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
-import replace from "gulp-replace";
 import cssnano from "cssnano";
 
 const browserSync = BrowserSync.create();
@@ -18,7 +17,7 @@ const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.pla
 const defaultArgs = ["-d", "../dist", "-s", "site"];
 
 if (process.env.DEBUG) {
-  defaultArgs.unshift("--debug")
+  defaultArgs.unshift("--debug");
 }
 
 gulp.task("hugo", (cb) => buildSite(cb));
@@ -40,7 +39,7 @@ gulp.task("css", () => (
 gulp.task("cms-assets", () => (
   gulp.src("./node_modules/netlify-cms/dist/*.{woff,eot,woff2,ttf,svg,png}")
     .pipe(gulp.dest("./dist/css"))
-))
+));
 
 gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);

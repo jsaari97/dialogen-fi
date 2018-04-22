@@ -42,3 +42,9 @@
     margin-left: auto;
   }
 }
+
+.center-horizontal {
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+}
