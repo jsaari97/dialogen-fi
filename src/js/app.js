@@ -1,7 +1,6 @@
 import ScrollReveal from "scrollreveal";
 import SmoothScroll from "smooth-scroll";
 import Lozad from "lozad";
-import Aload from "aload";
 
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", (user) => {
