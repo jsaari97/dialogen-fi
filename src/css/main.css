@@ -85,4 +85,6 @@
 /* @import './imports/_debug-children'; */
 /* @import './imports/_debug-grid'; */
 
-/* Uncomment out the line below to help debug layout issues */
+[data-aload] {
+  background-image: linear-gradient(135deg, rgba(168,228,247,1) 0%, rgba(60,147,240,1) 100%) !important;
+}

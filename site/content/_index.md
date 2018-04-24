@@ -1,5 +1,6 @@
 ---
 title: Behöver ni hjälp med språkträning?
+description: Språkträning Dialogen är en tjänst i Nedervetil, Kronoby som hjälper till med kommunikation hos barn med hjälp av Karlstadmodellen.
 image: /img/background.jpg
 socialmedia:
   facebook: https://www.facebook.com/hanseneivor/

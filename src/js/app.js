@@ -1,6 +1,7 @@
 import ScrollReveal from "scrollreveal";
 import SmoothScroll from "smooth-scroll";
 import Lozad from "lozad";
+import Aload from "aload";
 
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", (user) => {
@@ -31,3 +32,7 @@ scrollReveal.reveal(".header", {...scrollConfig, viewFactor: 0.25, delay: 200, d
 new SmoothScroll('a[href*="#"]');
 
 Lozad().observe();
+
+window.onload = () => {
+  Aload();
+};

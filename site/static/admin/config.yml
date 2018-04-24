@@ -13,6 +13,7 @@ collections: # A list of collections the CMS should be able to edit
         name: home
         fields:
           - {label: Huvudrubrik, name: title, widget: string}
+          - {label: Beskrivning av hemsidan, name: description, widget: string}
           - {label: Bakgrundsbild, name: image, widget: image}
           - {label: Kontakt, name: contact, widget: object, fields: [
               {label: Namn, name: name},
@@ -30,10 +31,10 @@ collections: # A list of collections the CMS should be able to edit
             ]}
           - {label: Länkar, name: sections, widget: list, fields: [
               {label: Bild, name: image, widget: image},
-              {label: Rubrik, name: title, widget: text},
+              {label: Rubrik, name: title, widget: string},
               {label: Text, name: text, widget: text},
-              {label: Länktext, name: linkText, widget: text, required: false},
-              {label: länk, name: link, widget: text, required: false}
+              {label: Länktext, name: linkText, widget: string, required: false},
+              {label: länk, name: link, widget: string, required: false}
             ]}
           - {label: Social Media, name: socialmedia, widget: object, fields: [
               {label: Facebook länk, name: facebook, widget: string, required: false},
