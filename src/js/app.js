@@ -33,6 +33,3 @@ new SmoothScroll('a[href*="#"]');
 
 Lozad().observe();
 
-window.onload = () => {
-  Aload();
-};

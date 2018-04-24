@@ -84,7 +84,3 @@
 /* Debugging */
 /* @import './imports/_debug-children'; */
 /* @import './imports/_debug-grid'; */
-
-[data-aload] {
-  background-image: none !important;
-}
