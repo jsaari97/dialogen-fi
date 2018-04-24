@@ -11,6 +11,7 @@ import svgstore from "gulp-svgstore";
 import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
 import cssnano from "cssnano";
+import uncss from "postcss-uncss";
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
@@ -22,15 +23,27 @@ if (process.env.DEBUG) {
 
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
-gulp.task("build", ["css", "js", "cms-assets", "hugo"]);
-gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
+gulp.task("build", ["cssMain", "cssCms", "js", "cms-assets", "hugo"]);
+gulp.task("build-preview", ["cssMain", "cssCms", "js", "cms-assets", "hugo-preview"]);
 
-gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
+gulp.task("cssMain", () => (
+  gulp.src("./src/css/main.css")
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
       cssnext(),
       cssnano(),
+      uncss({html: ["./site/layouts/**/*.html"]})
+    ]))
+    .pipe(gulp.dest("./dist/css"))
+    .pipe(browserSync.stream())
+));
+
+gulp.task("cssCms", () => (
+  gulp.src("./src/css/cms.css")
+    .pipe(postcss([
+      cssImport({from: "./src/css/main.css"}),
+      cssnext(),
+      cssnano()
     ]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
@@ -71,14 +84,14 @@ gulp.task("svg", () => {
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
-gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
+gulp.task("server", ["hugo", "cssMain", "cssCms", "cms-assets", "js", "svg"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
+  gulp.watch("./src/css/**/*.css", ["cssMain", "cssCms"]);
   gulp.watch("./site/static/img/icons-*.svg", ["svg"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });

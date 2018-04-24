@@ -86,5 +86,5 @@
 /* @import './imports/_debug-grid'; */
 
 [data-aload] {
-  background-image: linear-gradient(135deg, rgba(168,228,247,1) 0%, rgba(60,147,240,1) 100%) !important;
+  background-image: none !important;
 }
