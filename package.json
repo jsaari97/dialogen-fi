@@ -50,6 +50,7 @@
     "scrollreveal": "^3.3.6",
     "smooth-scroll": "^12.1.5",
     "url-loader": "^0.5.7",
+    "webfontloader": "^1.6.28",
     "webpack": "^3.0.0",
     "whatwg-fetch": "^1.0.0"
   },

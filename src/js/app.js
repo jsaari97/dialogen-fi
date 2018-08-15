@@ -1,6 +1,7 @@
 import ScrollReveal from "scrollreveal";
 import SmoothScroll from "smooth-scroll";
 import Lozad from "lozad";
+import WebFont from "webfontloader";
 
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", (user) => {
@@ -32,3 +33,8 @@ new SmoothScroll('a[href*="#"]');
 
 Lozad().observe();
 
+WebFont.load({
+  google: {
+    families: ["Nunito Sans:400,600,700,900"]
+  }
+});
