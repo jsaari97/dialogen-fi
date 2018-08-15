@@ -11,10 +11,10 @@
 				<h3 class="f4 fw9 b lh-title mb2 white">Social media</h3>
 				<ul class="mhn2 tc">
 					{{ if .Params.socialmedia.facebook }}
-						{{ partial "social-icon" (dict "link" .Params.socialmedia.facebook "svg" "icons-facebook") }}
+						{{ partial "social-icon" (dict "link" .Params.socialmedia.facebook "svg" "icons-facebook" "title" "Facebook sida") }}
 					{{ end }}
 					{{ if .Params.socialmedia.instagram }}
-						{{ partial "social-icon" (dict "link" .Params.socialmedia.instagram "svg" "icons-instagram") }}
+						{{ partial "social-icon" (dict "link" .Params.socialmedia.instagram "svg" "icons-instagram" "title" "Instagram sida") }}
 					{{ end }}
 				</ul>
 			</div>
