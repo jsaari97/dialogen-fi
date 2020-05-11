@@ -68,22 +68,22 @@ class PostPreview extends React.Component {
               <li className="pa3 flex items-center divider">{entry.getIn(["data", "contact", "phone"])}</li>
               <li className="pa3 flex items-center">{entry.getIn(["data", "contact", "email"])}</li>
             </ul>
-            <div className="bg-center cover flex-auto w-100 w-50-ns h5 h-auto-ns" style={{ backgroundImage: "url('/img/map.jpg')" }} />
+            <div className="bg-center cover flex-auto w-100 w-50-ns h5 h-auto-ns" style={{ backgroundImage: "url('/images/map.jpg')" }} />
           </div>
         </div>
 
         <footer class="bg-primary ph3 pv4 white">
           <div class="mw7 center pt3">
             <div class="measure-narrow center mb4">
-              <img src="/img/logo.svg" alt="dialogen logo" class="db w4 center mb4 br0" />
+              <img src="/images/logo.svg" alt="dialogen logo" class="db w4 center mb4 br0" />
             </div>
 
             <div className="flex justify-center">
               <div>
                 <h3 className="f4 fw9 b lh-title mb2 white">Social media</h3>
                 <ul className="mhn2 tc">
-                  {entry.getIn(["data", "socialmedia", "facebook"]) && <Icon icon="/img/icons-facebook.svg" />}
-                  {entry.getIn(["data", "socialmedia", "instagram"]) && <Icon icon="/img/icons-instagram.svg" />}
+                  {entry.getIn(["data", "socialmedia", "facebook"]) && <Icon icon="/images/icons-facebook.svg" />}
+                  {entry.getIn(["data", "socialmedia", "instagram"]) && <Icon icon="/images/icons-instagram.svg" />}
                 </ul>
               </div>
             </div>
