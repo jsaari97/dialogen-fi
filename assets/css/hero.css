@@ -1,0 +1,43 @@
+.hero--main {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: var(--container-max-width);
+  width: var(--container-width);
+
+  & > * {
+    flex: 0 0 50%;
+  }
+}
+
+.hero--content {
+  & > h1 {
+    font-size: 3.75rem;
+    margin-bottom: 2rem;
+  }
+}
+
+a.hero--cta-button {
+  display: inline-block;
+  color: #fff;
+  padding: 1rem 3rem;
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-large);
+
+  &:hover {
+    background-color: var(--secondary-dark);
+  }
+}
+
+.hero--image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero--image {
+  width: 24rem;
+  height: 24rem;
+  object-fit: cover;
+  border-radius: 50%;
+}

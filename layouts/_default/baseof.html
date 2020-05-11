@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
-  {{ partial "head" . }}
+  {{ partial "base/head.html" . }}
   <body class="sans-serif">
-    {{ partial "nav" . }}
+    {{ partial "layouts/nav.html" . }}
     {{ block "main" . }}{{ end }} 
-    {{ partial "footer" . }}
+    {{ partial "layouts/footer.html" . }}
     <script>
       function initMap() {
         var location = {lat: 63.717126, lng: 23.323363};
