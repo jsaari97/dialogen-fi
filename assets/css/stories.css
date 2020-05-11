@@ -1,0 +1,30 @@
+.stories--main {
+  max-width: var(--container-max-width);
+  width: var(--container-width);
+  margin: 0 auto;
+}
+
+.stories--item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 16rem;
+
+  &:nth-of-type(2n) {
+    flex-direction: row-reverse;
+  }
+}
+
+.stories--image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stories--text {
+  max-width: 24rem;
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}

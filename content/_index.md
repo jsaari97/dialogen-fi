@@ -16,16 +16,16 @@ info:
     Mitt företag heter “Språkträning Dialogen” och jag ställer gärna upp och
     handleder, ger tips och idéer för barn med olika typer av språkstörningar.
 stories:
-  - image: /images/svg/magic.svg
+  - image: /images/background.jpg
     text: |
       Vi tar så lätt språket förgivet och tror att alla barn börjar prata per
       automatik. Så var det inte hos oss.
-  - image: /images/svg/baby.svg
+  - image: /images/background.jpg
     text: |
       Vår yngste son föddes med Downs syndrom och tack vare honom kom jag i
       kontakt med Karlstadmodellen. En ny värld öppnades!  Utan språk-vem är du
       då?
-  - image: /images/svg/edu.svg
+  - image: /images/background.jpg
     text: |
       Jag utbildade mig till handledare i Karlstadmodellen 2012-2015 och innan
       dess har jag jobbat som klasslärare i över 15 år. Jag har fyra barn och

@@ -6,8 +6,8 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 :root {
-  --header-font: "Nunito Sans", sans-serif;
-  --body-font: "Nunito Sans", sans-serif;
+  --header-font: "News Cycle", sans-serif;
+  --body-font: "Literata", sans-serif;
 
   --container-width: calc(100% - 4rem);
   --container-max-width: 56rem;
