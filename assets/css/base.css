@@ -40,10 +40,6 @@ thead {
   font-weight: 700;
 }
 
-p {
-  font-size: 1.175rem;
-}
-
 a {
   color: var(--link);
   text-decoration: none;
