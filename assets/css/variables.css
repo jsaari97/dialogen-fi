@@ -20,14 +20,16 @@
   --light: #697782;
 
   --blue: #3c93f0;
-  --blue-dark: #18314f;
+  --blue-dark: #2f588a;
+  --blue-light: #1ca2ec;
 
   --primary: var(--blue);
   --primary-dark: var(--blue-dark);
+  --primary-light: var(--blue-light);
   --primary-gradient: linear-gradient(
     335deg,
-    var(--primary-dark) 0%,
-    var(--primary) 100%
+    var(--primary) 0%,
+    var(--primary-light) 100%
   );
   --secondary: #ee6c4d;
   --secondary-dark: #e84855;

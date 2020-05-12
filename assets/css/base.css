@@ -53,3 +53,8 @@ a {
     text-decoration: underline;
   }
 }
+
+body > div > h2 {
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}

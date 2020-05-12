@@ -23,7 +23,7 @@ a.hero--cta-button {
   display: inline-block;
   color: #fff;
   padding: 1rem 3rem;
-  background: var(--secondary-gradient);
+  background: var(--primary-gradient);
   box-shadow: var(--shadow-large);
   border-radius: 8px;
 }
