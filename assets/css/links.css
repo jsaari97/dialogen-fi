@@ -28,6 +28,12 @@
   }
 }
 
+@media (--viewport-medium) {
+  .links--content > p {
+    padding-right: 2rem;
+  }
+}
+
 @media (--viewport-small) {
   .links--main {
     margin-bottom: var(--spacing);

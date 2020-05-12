@@ -35,8 +35,7 @@ stories:
     alt: exempel bildtext
     text: |
       Jag utbildade mig till handledare i Karlstadmodellen 2012-2015 och innan
-      dess har jag jobbat som klasslärare i över 15 år. Jag har fyra barn och
-      vill tro att jag sitter på rätt god erfarenhet av språkträning.
+      dess har jag jobbat som klasslärare i över 15 år.
 
 links:
   - title: Karlstadmodellen
