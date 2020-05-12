@@ -1,0 +1,23 @@
+.dialogen-social-icon {
+  font-size: 1.75rem;
+  height: 1em;
+  width: 1em;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 2px solid var(--body);
+
+  & svg {
+    height: 0.75em;
+    width: 0.75em;
+    fill: var(--body);
+  }
+
+  &:hover {
+    & svg {
+      fill: var(--header);
+    }
+  }
+}

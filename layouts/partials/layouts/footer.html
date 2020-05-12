@@ -1,3 +1,15 @@
 <footer class="footer--main">
+  <ul class="footer--social-media">
+    <li>
+      {{ if .Params.socialmedia.facebook }}
+        {{ partial "common/social-icon.html" (dict "link" .Params.socialmedia.facebook "type" "facebook") }}
+      {{ end }}
+    </li>
+    <li>
+      {{ if .Params.socialmedia.instagram }}
+        {{ partial "common/social-icon.html" (dict "link" .Params.socialmedia.instagram "type" "instagram") }}
+      {{ end }}
+    </li>
+  </ul>
   <span>&copy; {{ now.Format "2006"}} - {{ .Site.Title }}</span>
 </footer>

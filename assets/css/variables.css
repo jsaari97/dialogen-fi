@@ -43,7 +43,7 @@
   --link: var(--blue);
   --link-dark: var(--blue-dark);
 
-  --shadow-large: 2px 4px 4px rgba(0, 0, 0, 0.12);
+  --shadow-large: 2px 4px 8px rgba(0, 0, 0, 0.12);
 
   --spacing: 4rem;
 }

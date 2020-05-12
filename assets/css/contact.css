@@ -28,7 +28,7 @@
   }
 
   & svg {
-    fill: var(--primary);
+    fill: var(--primary-light);
     margin-right: 1em;
     height: 2.5em;
     width: 2.5em;
@@ -38,4 +38,6 @@
 .contact--map {
   height: 24rem;
   flex: 1 0 auto;
+  overflow: hidden;
+  border-radius: 4px;
 }
