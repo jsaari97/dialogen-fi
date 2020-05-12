@@ -41,3 +41,23 @@
   overflow: hidden;
   border-radius: 4px;
 }
+
+@media (--viewport-small) {
+  .contact--wrapper {
+    flex-direction: column;
+  }
+
+  .contact--list {
+    margin: 0 0 3rem;
+
+    & svg {
+      height: 2.25rem;
+      width: 2.25rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .contact--map {
+    width: 100%;
+  }
+}

@@ -28,3 +28,24 @@
   margin-bottom: 3rem;
   text-align: center;
 }
+
+@media (--viewport-small) {
+  .stories--main {
+    flex-direction: column;
+  }
+
+  .stories--item {
+    &,
+    &:nth-of-type(2n) {
+      flex-direction: column;
+    }
+
+    margin-bottom: var(--spacing);
+  }
+
+  .stories--image {
+    height: 16rem;
+    width: 16rem;
+    margin-bottom: 3rem;
+  }
+}

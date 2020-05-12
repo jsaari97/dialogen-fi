@@ -11,8 +11,7 @@
 
 .links--item {
   width: calc(50% - 4rem);
-  margin: 0 2rem;
-  margin-bottom: var(--spacing);
+  margin: 0 2rem var(--spacing);
 }
 
 .links--image {
@@ -26,5 +25,20 @@
 .links--content {
   & > h3 {
     font-size: 2rem;
+  }
+}
+
+@media (--viewport-small) {
+  .links--main {
+    margin-bottom: var(--spacing);
+  }
+
+  .links--list {
+    flex-direction: column;
+  }
+
+  .links--item {
+    width: 100%;
+    margin: 0 0 calc(var(--spacing) * 1.5);
   }
 }

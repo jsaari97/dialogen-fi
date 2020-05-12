@@ -43,3 +43,29 @@
     }
   }
 }
+
+@media (--viewport-small) {
+  .nav--main {
+    width: calc(100% - 2rem);
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    & > nav {
+      margin: 0 auto;
+    }
+  }
+
+  .nav--branding {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav--menu {
+    & > li {
+      font-size: 0.875rem;
+
+      &:not(:last-of-type) {
+        margin-right: 0.75rem;
+      }
+    }
+  }
+}
