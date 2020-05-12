@@ -6,25 +6,7 @@
   {{ partial "layouts/nav.html" . }}
   {{ block "main" . }}{{ end }}
   {{ partial "layouts/footer.html" . }}
-  <script>
-    function initMap() {
-      var location = { lat: 63.717126, lng: 23.323363 };
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 13,
-        mapTypeControl: false,
-        streetViewControl: false,
-        fullscreenControl: false,
-        center: location
-      });
-      var marker = new google.maps.Marker({
-        position: location,
-        map: map
-      });
-    }
-  </script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsApiKey }}&callback=initMap">
-    </script>
+  {{ block "footer-scripts" . }}{{ end }}
 </body>
 
 </html>

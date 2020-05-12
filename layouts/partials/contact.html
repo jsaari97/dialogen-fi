@@ -3,21 +3,21 @@
   <div class="contact--wrapper">
     <ul class="contact--list">
       <li>
-        {{ partial "utils/inline-svg" "user" }}
+        {{ partial "utils/inline-svg.html" "user" }}
         {{ .Params.contact.name }}
       </li>
       <li>
-        {{ partial "utils/inline-svg" "marker" }}
+        {{ partial "utils/inline-svg.html" "marker" }}
         {{ .Params.contact.address }}
       </li>
       <li>
-        {{ partial "utils/inline-svg" "phone" }}
+        {{ partial "utils/inline-svg.html" "phone" }}
         <a href="tel:{{ .Params.contact.phone }}">
           {{ .Params.contact.phone }}
         </a>
       </li>
       <li>
-        {{ partial "utils/inline-svg" "envelope" }}
+        {{ partial "utils/inline-svg.html" "envelope" }}
         <a href="mailto:{{ .Params.contact.email }}">
           {{ .Params.contact.email }}
         </a>
