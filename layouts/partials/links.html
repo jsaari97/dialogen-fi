@@ -3,7 +3,7 @@
   <div class="links--list">
     {{ range .Params.links }}
     <div class="links--item">
-      <img class="links--image" alt="{{ .alt }}" src="{{ .image }}" />
+      <img loading="lazy" class="links--image" alt="{{ .alt }}" src="{{ .image }}" />
       <div class="links--content">
         <h3>{{ .title }}</h3>
         <p>{{ .text }}</p>
