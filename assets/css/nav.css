@@ -4,6 +4,7 @@
   margin: 0 auto;
   max-width: 96rem;
   width: calc(100% - 8rem);
+  padding: 1rem 0;
 
   & > nav {
     margin-left: auto;
@@ -12,8 +13,9 @@
 
 .nav--branding {
   & svg {
-    height: 4rem;
-    fill: var(--primary);
+    height: 2.5rem;
+    width: auto;
+    fill: var(--header);
   }
 }
 

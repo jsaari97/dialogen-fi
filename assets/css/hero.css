@@ -5,6 +5,7 @@
   margin: 0 auto;
   max-width: var(--container-max-width);
   width: var(--container-width);
+  margin-bottom: var(--spacing);
 
   & > * {
     flex: 0 0 50%;
@@ -14,7 +15,7 @@
 .hero--content {
   & > h1 {
     font-size: 4.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -22,13 +23,9 @@ a.hero--cta-button {
   display: inline-block;
   color: #fff;
   padding: 1rem 3rem;
-  background-color: var(--secondary);
+  background: var(--secondary-gradient);
   box-shadow: var(--shadow-large);
   border-radius: 8px;
-
-  &:hover {
-    background-color: var(--secondary-dark);
-  }
 }
 
 .hero--image-wrapper {
