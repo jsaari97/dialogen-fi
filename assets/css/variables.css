@@ -12,9 +12,6 @@
   --container-width: calc(100% - 4rem);
   --container-max-width: 56rem;
 
-  --content-width: calc(100% - 4rem);
-  --content-max-width: 32rem;
-
   --body: #495666;
   --header: #0c2539;
   --light: #697782;
@@ -24,20 +21,13 @@
   --blue-light: #45bdff;
 
   --primary: var(--blue);
-  --primary-dark: var(--blue-dark);
   --primary-light: var(--blue-light);
   --primary-gradient: linear-gradient(
     335deg,
-    var(--primary) 0%,
-    var(--primary-light) 100%
+    var(--blue) 0%,
+    var(--blue-light) 100%
   );
-  --secondary: #ee6c4d;
-  --secondary-dark: #e84855;
-  --secondary-gradient: linear-gradient(
-    335deg,
-    var(--secondary-dark) 0%,
-    var(--secondary) 100%
-  );
+
   --background: #fafafd;
 
   --link: var(--blue);
