@@ -1,14 +1,28 @@
-<div id="kontakt" class="bg-primary white ph2">
-  <h3 class="tc pv4 pv5-m f4 f3-m">Frågor? Ta gärna kontakt!</h3>
-  <div class="flex flex-wrap bg-white mw7 br1 overflow-hidden shadow-1 center">
-    <ul class="grey-4 flex-auto w-100 w-50-ns">
-      <li class="black pa3 divider tc fw9">Kontaktuppgifter</li>
-      <li class="pa3 flex items-center divider">{{ partial "utils/inline-svg" "person" }}{{ .Params.contact.name }}</li>
-      <li class="pa3 flex items-center divider">{{ partial "utils/inline-svg" "location" }}{{ .Params.contact.address }}</li>
-      <li class="pa3 flex items-center divider">{{ partial "utils/inline-svg" "phone" }}{{ .Params.contact.phone }}</li>
-      <li class="pa3 flex items-center">{{ partial "utils/inline-svg" "mail" }}{{ .Params.contact.email }}</li>
+<div id="kontakt" class="contact--main">
+  <h2>Frågor? Ta gärna kontakt!</h2>
+  <div class="contact--wrapper">
+    <ul class="contact--list">
+      <li>
+        {{ partial "utils/inline-svg" "user" }}
+        {{ .Params.contact.name }}
+      </li>
+      <li>
+        {{ partial "utils/inline-svg" "marker" }}
+        {{ .Params.contact.address }}
+      </li>
+      <li>
+        {{ partial "utils/inline-svg" "phone" }}
+        <a href="tel:{{ .Params.contact.phone }}">
+          {{ .Params.contact.phone }}
+        </a>
+      </li>
+      <li>
+        {{ partial "utils/inline-svg" "envelope" }}
+        <a href="mailto:{{ .Params.contact.email }}">
+          {{ .Params.contact.email }}
+        </a>
+      </li>
     </ul>
-    <div id="map" class="flex-auto w-100 w-50-ns h5 h-auto-ns">
-    </div>
+    <div id="map" class="contact--map"></div>
   </div>
 </div>

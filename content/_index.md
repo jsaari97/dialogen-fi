@@ -11,7 +11,7 @@ contact:
   address: Pelostrandvägen 96, Nedervetil
   email: dialogen.eivor@gmail.com
   name: Eivor Hansén
-  phone: 050 5940804
+  phone: +358 505 940804
 
 info:
   image: /images/svg/logo.svg
