@@ -1,20 +1,3 @@
-<footer class="bg-primary ph3 pv4 white">
-	<div class="mw7 center pt3">
-		<div class="measure-narrow center mb4">
-			{{ partial "utils/inline-svg.html" "logo" }}
-		</div>
-		<div class="flex justify-center">
-			<div>
-				<h3 class="f4 fw9 b lh-title mb2 white">Social media</h3>
-				<ul class="mhn2 tc">
-					{{ if .Params.socialmedia.facebook }}
-						{{ partial "common/social-icon.html" (dict "link" .Params.socialmedia.facebook "type" "facebook") }}
-					{{ end }}
-					{{ if .Params.socialmedia.instagram }}
-						{{ partial "common/social-icon.html" (dict "link" .Params.socialmedia.instagram "type" "instagram") }}
-					{{ end }}
-				</ul>
-			</div>
-		</div>
-	</div>
+<footer class="footer--main">
+  <span>&copy; {{ now.Format "2006"}} - {{ .Site.Title }}</span>
 </footer>

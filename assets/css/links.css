@@ -1,5 +1,5 @@
 .links--main {
-  margin: 0 auto;
+  margin: 0 auto 8rem;
   width: var(--container-width);
   max-width: 64rem;
 }
