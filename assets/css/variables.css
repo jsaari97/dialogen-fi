@@ -1,0 +1,51 @@
+@custom-media --viewport-small (width <= 42em);
+@custom-media --viewport-medium (width > 42em);
+@custom-media --viewport-large (width > 72em);
+@custom-media --viewport-xlarge (width > 92em);
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:root {
+  --header-font: "News Cycle", sans-serif;
+  --body-font: "Literata", sans-serif;
+
+  --container-width: calc(100% - 4rem);
+  --container-max-width: 56rem;
+
+  --body: #495666;
+  --header: #0c2539;
+  --light: #697782;
+
+  --blue: #3c93f0;
+  --blue-dark: #2f588a;
+  --blue-light: #45bdff;
+
+  --primary: var(--blue);
+  --primary-light: var(--blue-light);
+  --primary-gradient: linear-gradient(
+    335deg,
+    var(--blue) 0%,
+    var(--blue-light) 100%
+  );
+
+  --background: #fafafd;
+
+  --link: var(--blue);
+  --link-dark: var(--blue-dark);
+
+  --shadow-large: 2px 4px 8px rgba(0, 0, 0, 0.12);
+
+  --spacing: 4rem;
+}
+
+@media (--viewport-large) {
+  :root {
+    --spacing: 6rem;
+  }
+}
+
+@media (--viewport-xlarge) {
+  :root {
+    --spacing: 8rem;
+  }
+}

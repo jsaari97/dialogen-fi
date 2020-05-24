@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 48px;
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--body);
+}
+
+@media (--viewport-large) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  background-color: var(--background);
+}
+
+:--heading,
+hgroup,
+ul,
+ol,
+dd,
+p,
+figure,
+pre,
+table,
+fieldset,
+hr {
+  margin: 0 0 1.5rem;
+}
+
+:--heading,
+hgroup,
+thead {
+  font-family: var(--header-font);
+  color: var(--header);
+  line-height: 1.25;
+  letter-spacing: 0.0325em;
+  font-weight: 700;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+
+  &:visited {
+    color: var(--link-dark);
+  }
+
+  &:hover {
+    color: var(--link-dark);
+    text-decoration: underline;
+  }
+}
+
+body > div > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+@media (--viewport-small) {
+  body > div > h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+}

@@ -1,0 +1,18 @@
+<div id="lankar" class="links--main">
+  <h2>Länkar</h2>
+  <div class="links--list">
+    {{ range .Params.links }}
+    <div class="links--item">
+      <img loading="lazy" class="links--image" alt="{{ .alt }}" src="{{ .image }}" />
+      <div class="links--content">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+
+        {{ if .link }}
+        <a href="{{ .link }}" class="links--link">{{ .linkText }}</a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

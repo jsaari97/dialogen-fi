@@ -1,0 +1,13 @@
+.footer--main {
+  padding: 4rem 0 3rem;
+  text-align: center;
+  font-size: 0.925rem;
+}
+
+.footer--social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  display: flex;
+  justify-content: center;
+}

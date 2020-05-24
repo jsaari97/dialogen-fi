@@ -1,0 +1,63 @@
+.contact--main {
+  margin: 0 auto;
+  max-width: 64rem;
+  width: var(--container-width);
+  margin-bottom: var(--spacing);
+}
+
+.contact--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.contact--list {
+  list-style: none;
+  padding: 0;
+  margin: 0 4rem 0 0;
+
+  & > li {
+    font-size: 1.175rem;
+    color: var(--header);
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    & > a {
+      color: currentColor;
+    }
+  }
+
+  & svg {
+    fill: var(--primary-light);
+    margin-right: 1em;
+    height: 2.5em;
+    width: 2.5em;
+  }
+}
+
+.contact--map {
+  height: 24rem;
+  flex: 1 0 auto;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+@media (--viewport-small) {
+  .contact--wrapper {
+    flex-direction: column;
+  }
+
+  .contact--list {
+    margin: 0 0 3rem;
+
+    & svg {
+      height: 2.25rem;
+      width: 2.25rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .contact--map {
+    width: 100%;
+  }
+}

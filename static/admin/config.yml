@@ -1,0 +1,92 @@
+backend:
+  name: git-gateway
+
+media_folder: static/images # Folder where user uploaded files should go
+public_folder: images
+
+collections: # A list of collections the CMS should be able to edit
+  - name: pages
+    label: Sidor
+    files:
+      - file: content/_index.md
+        label: Dialogen Innehåll
+        name: home
+        fields:
+          - { label: Huvudrubrik, name: title, widget: string }
+          - {
+              label: Beskrivning av hemsidan,
+              name: description,
+              widget: string,
+            }
+          - { label: Bakgrundsbild, name: image, widget: image }
+          - {
+              label: Kontakt,
+              name: contact,
+              widget: object,
+              fields:
+                [
+                  { label: Namn, name: name, widget: string },
+                  { label: Adress, name: address, widget: string },
+                  { label: Telefon nr., name: phone, widget: string },
+                  { label: E-post, name: email, widget: string },
+                ],
+            }
+          - {
+              label: Företagsinfo,
+              name: info,
+              widget: object,
+              fields:
+                [
+                  { label: Text, name: text, widget: text },
+                ],
+            }
+          - {
+              label: Om Företaget,
+              name: stories,
+              widget: list,
+              fields:
+                [
+                  { label: Bild, name: image, widget: image },
+                  { label: Bild text, name: alt, widget: string },
+                  { label: Text, name: text, widget: text },
+                ],
+            }
+          - {
+              label: Länkar,
+              name: links,
+              widget: list,
+              fields:
+                [
+                  { label: Bild, name: image, widget: image },
+                  { label: Bild text, name: alt, widget: string },
+                  { label: Rubrik, name: title, widget: string },
+                  { label: Text, name: text, widget: text },
+                  {
+                    label: Länktext,
+                    name: linkText,
+                    widget: string,
+                    required: false,
+                  },
+                  { label: länk, name: link, widget: string, required: false },
+                ],
+            }
+          - {
+              label: Social Media,
+              name: socialmedia,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Facebook länk,
+                    name: facebook,
+                    widget: string,
+                    required: false,
+                  },
+                  {
+                    label: Instagram länk,
+                    name: instagram,
+                    widget: string,
+                    required: false,
+                  },
+                ],
+            }

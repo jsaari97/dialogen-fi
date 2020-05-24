@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+{{ partial "stories.html" . }}
+
+{{ partial "info.html" . }}
+
+{{ partial "links.html" . }}
+
+{{ partial "contact.html" . }}
+
+{{ end }}
+
+{{ define "footer-scripts" }}
+  {{ partial "common/google-maps.html" . }}
+{{ end }}

@@ -1,0 +1,8 @@
+baseURL = "https://www.dialogen.fi/"
+languageCode = "sv"
+title = "Språkträning Dialogen"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  googleMapsApiKey = "AIzaSyAdCZeNbwk6G1D2E3T1otv06DdIzaKrrfg"
