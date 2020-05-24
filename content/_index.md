@@ -14,7 +14,6 @@ contact:
   phone: +358 505 940804
 
 info:
-  image: /images/svg/logo.svg
   text: |
     Mitt företag heter “Språkträning Dialogen” och jag ställer gärna upp och
     handleder, ger tips och idéer för barn med olika typer av språkstörningar.

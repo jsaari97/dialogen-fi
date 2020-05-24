@@ -25,10 +25,10 @@ collections: # A list of collections the CMS should be able to edit
               widget: object,
               fields:
                 [
-                  { label: Namn, name: name },
-                  { label: Adress, name: address },
-                  { label: Telefon nr., name: phone },
-                  { label: E-post, name: email },
+                  { label: Namn, name: name, widget: string },
+                  { label: Adress, name: address, widget: string },
+                  { label: Telefon nr., name: phone, widget: string },
+                  { label: E-post, name: email, widget: string },
                 ],
             }
           - {
@@ -37,7 +37,6 @@ collections: # A list of collections the CMS should be able to edit
               widget: object,
               fields:
                 [
-                  { label: Bild, name: image, widget: image },
                   { label: Text, name: text, widget: text },
                 ],
             }

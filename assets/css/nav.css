@@ -15,7 +15,7 @@
   & svg {
     height: 2.5rem;
     width: auto;
-    fill: var(--body);
+    fill: var(--primary-light);
   }
 }
 

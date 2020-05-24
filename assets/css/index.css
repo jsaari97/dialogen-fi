@@ -1,9 +1,11 @@
 @import "./variables.css";
 @import "./normalize.css";
 @import "./base.css";
+@import "./gradients.css";
 @import "./nav.css";
 @import "./hero.css";
 @import "./stories.css";
+@import "./info.css";
 @import "./links.css";
 @import "./contact.css";
 @import "./footer.css";
