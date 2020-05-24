@@ -1,1 +1,1 @@
-{{ (printf "/static/images/svg/%s.svg" .) | readFile | safeHTML }}
+{{ (printf `/static/images/svg/%s.svg` .) | readFile | replaceRE `^<svg\s` `<svg aria-hidden="true" role="img" focusable="false" ` | safeHTML }}
