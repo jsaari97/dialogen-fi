@@ -1,41 +1,34 @@
 ---
 title: Hjälp med språkträning
-description: Språkträning Dialogen är en tjänst i Nedervetil, Kronoby som hjälper till med kommunikationen hos barn med hjälp av Karlstadmodellen.
+description: Språkträning Dialogen är en tjänst i Nedervetil, Kronoby som
+  hjälper till med kommunikationen hos barn med hjälp av Karlstadmodellen.
 image: /images/sand.jpg
-
-socialmedia:
-  facebook: https://www.facebook.com/hanseneivor/
-  instagram:
-
 contact:
   address: Pelostrandvägen 96, Nedervetil
   email: dialogen.eivor@gmail.com
   name: Eivor Hansén
   phone: +358 505 940804
-
 info:
-  text: |
+  text: |-
     Mitt företag heter “Språkträning Dialogen” och jag ställer gärna upp och
     handleder, ger tips och idéer för barn med olika typer av språkstörningar.
-
 stories:
   - image: /images/boy-with-map.jpg
-    alt: exempel bildtext
+    alt: Pojke som hålleri en karta
     text: |
       Vi tar så lätt språket förgivet och tror att alla barn börjar prata per
       automatik. Så var det inte hos oss.
   - image: /images/boy-sitting-on-bench.jpg
-    alt: exempel bildtext
+    alt: Pojke som läser en bok
     text: |
       Vår yngste son föddes med Downs syndrom och tack vare honom kom jag i
       kontakt med Karlstadmodellen. En ny värld öppnades!  Utan språk-vem är du
       då?
   - image: /images/books.jpg
-    alt: exempel bildtext
+    alt: bild på barnböcker
     text: |
       Jag utbildade mig till handledare i Karlstadmodellen 2012-2015 och innan
       dess har jag jobbat som klasslärare i över 15 år.
-
 links:
   - title: Karlstadmodellen
     image: /images/letters.jpg
@@ -55,4 +48,7 @@ links:
       Babblarna har blivit populära hos yngre barn. Ett tillltalande
       träningsmaterial som Irene Johansson utvecklade för språkträning med yngre
       barn.
+socialmedia:
+  facebook: https://www.facebook.com/hanseneivor/
+  instagram: null
 ---
