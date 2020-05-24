@@ -34,8 +34,8 @@ a.hero--cta-button {
 }
 
 .hero--image {
-  width: 24rem;
-  height: 24rem;
+  width: 32rem;
+  height: 32rem;
   object-fit: cover;
   border-radius: 50%;
 }
