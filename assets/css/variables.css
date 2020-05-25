@@ -9,7 +9,7 @@
   --header-font: "News Cycle", sans-serif;
   --body-font: "Literata", sans-serif;
 
-  --container-width: calc(100% - 4rem);
+  --container-width: calc(100% - 2rem);
   --container-max-width: 56rem;
 
   --body: #495666;
@@ -36,6 +36,10 @@
   --shadow-large: 2px 4px 8px rgba(0, 0, 0, 0.12);
 
   --spacing: 4rem;
+}
+
+@media (--viewport-medium) {
+  --container-width: calc(100% - 4rem);
 }
 
 @media (--viewport-large) {
