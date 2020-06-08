@@ -1,7 +1,7 @@
 <div id="om-foretaget" class="stories--main">
     {{ range .Params.stories }}
     <div class="stories--item">
-      <img loading="lazy" src="{{ .image }}" alt="{{ .alt }}" class="stories--image">
+      <img loading="lazy" width="432" height="432" src="{{ .image }}" alt="{{ .alt }}" class="stories--image">
       <p class="stories--text">{{ .text }}</p>
     </div>
     {{ end }}
