@@ -8,10 +8,6 @@
     "svg": "svgo -r -f static/images/svg --disable=removeViewBox"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "core-js": "^3.6.5",
     "cssnano": "^4.1.10",
     "postcss": "^8.1.4",
     "postcss-cli": "^8.2.0",
