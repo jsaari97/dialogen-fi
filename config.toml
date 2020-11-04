@@ -1,4 +1,5 @@
 baseURL = "https://www.dialogen.fi/"
+DefaultContentLanguage = "sv"
 languageCode = "sv"
 title = "Språkträning Dialogen"
 
