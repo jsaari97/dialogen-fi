@@ -14,7 +14,7 @@
 
 .hero--content {
   & > h1 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
   }
 }
@@ -23,9 +23,14 @@ a.hero--cta-button {
   display: inline-block;
   color: #fff;
   padding: 1rem 3rem;
-  background: var(--primary-gradient);
+  background-color: var(--primary);
   box-shadow: var(--shadow-large);
   border-radius: 8px;
+  transition: background-color 125ms ease;
+
+  &:hover {
+    background-color: var(--primary-light);
+  }
 }
 
 .hero--image-wrapper {

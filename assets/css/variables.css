@@ -6,8 +6,8 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 :root {
-  --header-font: "News Cycle", sans-serif;
-  --body-font: "Literata", sans-serif;
+  --header-font: "Literata", "Times New Roman", Times, serif;
+  --body-font: var(--header-font);
 
   --container-width: calc(100% - 2rem);
   --container-max-width: 56rem;
@@ -22,11 +22,6 @@
 
   --primary: var(--blue);
   --primary-light: var(--blue-light);
-  --primary-gradient: linear-gradient(
-    335deg,
-    var(--blue) 0%,
-    var(--blue-light) 100%
-  );
 
   --background: #fafafd;
 

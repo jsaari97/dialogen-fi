@@ -1,7 +1,0 @@
-.primary-gradient-start {
-  stop-color: var(--primary);
-}
-
-.primary-gradient-end {
-  stop-color: var(--primary-light);
-}
