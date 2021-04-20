@@ -5,15 +5,15 @@
   "author": "Jim Saari",
   "license": "MIT",
   "scripts": {
-    "svg": "svgo -r -f static/images/svg --disable=removeViewBox"
+    "svg": "svgo -r -f static/images/svg"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
+    "cssnano": "^5.0.1",
     "postcss": "^8.1.4",
     "postcss-cli": "^8.2.0",
     "postcss-import": "^14.0.0",
     "postcss-preset-env": "^6.7.0",
-    "svgo": "^1.3.2"
+    "svgo": "^2.3.0"
   },
   "browserslist": "> 0.25%, not dead"
 }
