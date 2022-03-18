@@ -10,10 +10,10 @@
   "devDependencies": {
     "cssnano": "^5.0.1",
     "postcss": "^8.1.4",
-    "postcss-cli": "^8.2.0",
+    "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.0",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^7.4.2",
     "svgo": "^2.3.0"
   },
-  "browserslist": "> 0.25%, not dead"
+  "browserslist": "> 0.5%, not dead"
 }
